@@ -10,13 +10,12 @@
 - page visited history in web browser
 - undo sequence of the text editor 
 - Recursive function calling => Ex:
-<br>
-```public class Main {
-  public static void main(String[] args) {
+``` public class Main {
+   public static void main(String[] args) {
     int result = sum(10);
     System.out.println(result);
   }
-  public static int sum(int k) {
+   public static int sum(int k) {
     if (k > 0) {
       return k + sum(k - 1);
     } else {
@@ -24,7 +23,7 @@
     }
   }
 }
-``` 
+```
 - Auxiliary data structure for algorithms 
 - Stack in memory for a process
 
