@@ -30,15 +30,14 @@
 # Stack
 ![stack](https://media.geeksforgeeks.org/wp-content/uploads/geek-stack-1.png)
 <br>
-- All insertions and deletions are made at <mark>one end(top)</mark>.Insertions and deletions are restricted from the middle and at the end of the stack.
+- All insertions and deletions are made `at one end(top)`.Insertions and deletions are restricted from the `middle and at the end of the stack.`
 
 - Adding an items is called **push**
 - Removing an item is called **pop** 
 
-- Elements are removed from a slack in <mark>the reverse order</mark> of that in which the elements were inserted into the slack
+- Elements are removed from a slack in `the reverse order` of that in which the elements were inserted into the slack
 
-- The elements are inserted and removed according to the Last-In-First-Out(LIFO) principle
-<br>
+- The elements are inserted and removed according to the `Last-In-First-Out(LIFO)` principle
 ### Stack-Push
 <br><br>
 ![push](https://www.tutorialspoint.com/data_structures_algorithms/images/stack_push_operation.jpg)
@@ -46,4 +45,10 @@
 ### Stack-Pop
 <br><br>
 ![pop](https://www.tutorialspoint.com/data_structures_algorithms/images/stack_pop_operation.jpg)
+
+### Stack-Peek
+<br><br>
+![peek](https://qph.fs.quoracdn.net/main-qimg-f22268230c00651b84db79c13bdb7ec9)
+- Peek is used to read the value `from the top of the stack without removing it.`
+- You can peek `only the top item,` all the other items are invisible to the stack user
 
