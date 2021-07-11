@@ -50,5 +50,31 @@
 <br><br>
 ![peek](https://qph.fs.quoracdn.net/main-qimg-f22268230c00651b84db79c13bdb7ec9)
 - Peek is used to read the value `from the top of the stack without removing it.`
-- You can peek `only the top item,` all the other items are invisible to the stack user
+- You can peek `only the top item,` all the other items are invisible to the stack use
+
+## Uses of Stack
+- The Stack operations are build into the microprocessor
+- When a method is called, its return `address` and `arguments` are pushed onto a stack, and `when it returns they're popped off.`
+
+## Stack - Implementation 
+### Stack implementation using an array
+- `Constructor creates a new stack` of a size specified in its arguments
+- Variable top, which `stores the index of the item on the top of the stack`
+
+```
+class StackX{
+  private int maxSize;  //size of stack array
+  private double[] stackArray;
+  private int top;   //top of the stack
+
+  public StackX(int s){   //constructor
+    maxSize = s;
+    stackArray = new double[maxSize];   
+    top = -1;    //no items 
+
+  }
+
+}
+```
+
 
