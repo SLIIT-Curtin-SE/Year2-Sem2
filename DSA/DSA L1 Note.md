@@ -28,8 +28,9 @@
 - Stack in memory for a process
 
 # Stack
+
 ![stack](https://media.geeksforgeeks.org/wp-content/uploads/geek-stack-1.png)
-<br>
+
 - All insertions and deletions are made `at one end(top)`.Insertions and deletions are restricted from the `middle and at the end of the stack.`
 
 - Adding an items is called **push**
@@ -39,15 +40,18 @@
 
 - The elements are inserted and removed according to the `Last-In-First-Out(LIFO)` principle
 ### Stack-Push
-<br><br>
+
+
 ![push](https://www.tutorialspoint.com/data_structures_algorithms/images/stack_push_operation.jpg)
 
 ### Stack-Pop
-<br><br>
+
+
 ![pop](https://www.tutorialspoint.com/data_structures_algorithms/images/stack_pop_operation.jpg)
 
 ### Stack-Peek
-<br><br>
+
+
 ![peek](https://qph.fs.quoracdn.net/main-qimg-f22268230c00651b84db79c13bdb7ec9)
 - Peek is used to read the value `from the top of the stack without removing it.`
 - You can peek `only the top item,` all the other items are invisible to the stack use
@@ -64,7 +68,7 @@
 ```
 class StackX{
   private int maxSize;  //size of stack array
-  private double[] stackArray;
+  private double []stackArray;
   private int top;   //top of the stack
 
   public StackX(int s){   //constructor
@@ -76,5 +80,137 @@ class StackX{
 
 }
 ```
+## Stack - Implementation - push
+```
+class StackX{
+  private int maxSize;
+  private double []stackArray;
+  private int top;
 
+  public StackX(int s){
+    maxSize = s;
+    stackArray = new double[maxSize];
+    top = -1;
+  }
 
+  public void push(double j){
+    if(top == maxSize - 1){
+      System.out.println("Stack is full");
+    }
+    else
+    //top++;
+    stackArray[++top] = j;  //increment top and insert item
+  }
+
+}
+```
+## Stack - Implementation - pop
+```
+class StackX{
+  private int maxSize;
+  private double []stackArray;
+  private int top;
+
+  public StackX(int s){
+    maxSize = s;
+    stackArray = new double[maxSize];
+    top = -1;
+  }
+
+  public void push(double j){
+    if(top == maxSize - 1){
+      System.out.println("Stack is full");
+    }
+    else
+    //top++;
+    stackArray[++top] = j;  //increment top and insert item
+  }
+
+  public double pop(){
+    if(top == -1){
+      return -99;
+    }
+    else{
+      return stackArray[top--];
+    }
+    
+  }
+
+}
+```
+## Stack - Implementation - peek
+```
+class StackX{
+  private int maxSize;
+  private double []stackArray;
+  private int top;
+
+  public StackX(int s){
+    maxSize = s;
+    stackArray = new double[maxSize];
+    top = -1;
+  }
+
+  public void push(double j){
+    if(top == maxSize - 1){
+      System.out.println("Stack is full");
+    }
+    else
+    //top++;
+    stackArray[++top] = j;  //increment top and insert item
+  }
+
+  public double pop(){
+    if(top == -1){
+      return -99;
+    }
+    else{
+      return stackArray[top--];
+    } 
+  }
+
+  public double peek(){
+    if(top == -1){
+      return -99;
+    }
+    else{
+      return stackArray[top];
+    }
+  }
+
+}
+```
+
+## Check stack is empty or is full
+```
+public boolean isEmpty(){
+  if(top == -1)
+    return true;
+  else
+    return false;
+}
+
+public boolean isFull(){
+  return (top == maxSize - 1);
+}
+```
+## Creating a stack
+```
+class stackApp{
+  public static void main(String[] args){
+    StackX theStack = new Stack(10);  //create stack with maximum size with 10
+
+    theStack.push(30);
+    theStack.push(80);
+    theStack.push(100);
+    theStack.push(25);
+
+    while(!theStack.isEmpty()){
+      double val = theStack.pop();
+      System.out.println(val);
+      System.out.println(" ");
+    }
+
+  }
+} //end of the class
+```
