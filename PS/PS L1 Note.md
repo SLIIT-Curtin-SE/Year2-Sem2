@@ -26,3 +26,21 @@
 - Eg: Sample mean, Sample variance, Sample proportion 
 ### Experiment 
 - An experiment is a `planned activity` whose `results yield a set of data`
+
+## Types of Variables
+### Qualitative/Attribute/Categorical Variable
+- A  variable that `categorizes and describes an element.` Eg : Hair color, Gender, Martial Status
+### Quantitative/Numerical Variable 
+- A variable that quantifies an element. Eg: Marks for Statistics, Age, Temperature 
+## Qualitative Variables
+### Nominal Variables 
+- Categories are not `naturally ordered.` Eg : Gender, Hair Color,Marital Status
+### Ordinal Variables
+- Categories are `naturally ordered.` Eg: Satisfaction Rating, Highest education qualification 
+## Quantitative Variables 
+### Discrete Variables
+- `Distance between two value` exists.We can include `whole numbers.` Eg: Number of accidents ina junction, Age in years
+### Continuous Variables
+- This will contain `any value within a given range.`We can include `decimal numbers` Eg: Temperature, Heart beat of a patient 
+
+
