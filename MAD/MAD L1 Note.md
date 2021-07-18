@@ -5,5 +5,5 @@
 - The number of smart phone users is growing up day by day.
 - It has various incredible features and opportunities offered to the users.
 ### Mobile Application Development 
-- Mobile application development refers to the creation of apps for users on devices such as **tablets**,**smartphones**,**automobiles**and **watches**.
+- Mobile application development refers to the creation of apps for users on devices such as **tablets**,**smartphones**,**automobiles** and **watches**.
 - Mobile developments often incorporates features of mobile devices that may not be available on desktop devices. Ex: play games moving smart phone  
