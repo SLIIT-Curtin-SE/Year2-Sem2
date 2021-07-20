@@ -42,5 +42,8 @@
 - `Distance between two value` exists.We can include `whole numbers.` Eg: Number of accidents ina junction, Age in years
 ### Continuous Variables
 - This will contain `any value within a given range.`We can include `decimal numbers` Eg: Temperature, Heart beat of a patient 
+## Measurement Scales
+- Normal data -> Ordinal Data -> Interval Data -> Ratio Data
+## Interval Scale VS Ratio Scale
 
 
