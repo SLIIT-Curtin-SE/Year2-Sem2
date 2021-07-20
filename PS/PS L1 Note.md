@@ -46,4 +46,21 @@
 - Normal data -> Ordinal Data -> Interval Data -> Ratio Data
 ## Interval Scale VS Ratio Scale
 
+| Interval Scale        | Ratio Scale           | 
+| ------------- |-------------| 
+| Variables can be added and subtracted.<br> But ratio and multiplication is not possible      | Including ratio and multiplication of an interval scale | 
+| Can calculate mean, median and mode | Can calculate mean, median and mode |   
+| Difference between variables can be evaluated | Difference between variables can be evaluated|
+| Does not have zero point | True zero point exist | 
+| Eg: Temperature | Eg: Height, Weight |
+## Areas of Statistics
+### Descriptive Statics 
+- This is also known as `preliminary analysis / explanatory analysis.`
+- This will give you a rough idea about the `behavior of data`
+- It describes how the each of the `variables behave.` 
+- There are two methods that can use under descriptive statistics. They are, `Graphical Method, Numerical Method`
+### Inferential Statistics 
+- Under this there are two main areas namely, `parameter estimation, hypothesis testing`
+
+
 
