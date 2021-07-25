@@ -18,7 +18,7 @@
 - `Less costly` to administrator than a census
 - `Less cumbersome and more practical` to administrator than a census of the targeted population
 
-### **Non - probability sampling**
+## **Non - probability sampling**
 
 - Uses a `subjective(Non - random) method`
 - Does not require `a sampling/survey frame`
@@ -49,7 +49,7 @@
 2. Sampling is done until a specific number of units (quotas) for `various subpopulations` has been selected
 3. Market researchers often use quota sampling(particularly for telephone surveys)
 
-### **Probability Sampling**
+## **Probability Sampling**
 
 - Based on the `principle of randomization or chance`
 - More `complex, time consuming and usually more costly`
