@@ -65,8 +65,7 @@
 
 ### probability sampling methods
 
--`Simple Random Sampling(SRS)`
-
+- `Simple Random Sampling(SRS)`
 - `Systematic Sampling(SYS)`
 - Probability-proportion-to-size(PPS)Sampling
 - `Cluster Sampling`
