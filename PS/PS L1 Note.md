@@ -100,4 +100,3 @@
 ### Inferential Statistics
 
 - Under this there are two main areas namely, `parameter estimation, hypothesis testing`
-  ###h1
