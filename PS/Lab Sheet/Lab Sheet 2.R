@@ -120,7 +120,18 @@ print(max)
 #Q7
 x[which.max(x)]
 
+#Q8
+a=p*(1+R/100)^n
+a<-0
 
+M<-function(p,R,n){
+  for (i in 1:15) {
+    a=p*(1+R/100)^n
+    print(a)
+    
+  }
+}
+M(5000,11.5,15)
 
 
 
