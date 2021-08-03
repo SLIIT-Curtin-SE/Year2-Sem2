@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Temperature Calculator</string>
+    <string name="rbFahrenheit">Fahrenheit</string>
+    <string name="rbCelcius">Celcius</string>
+    <string name="btnCalculate">Calculate</string>
+    <string name="txtZero">-</string>
+    <string name="contentDescription">Temperature image</string>
+</resources>
