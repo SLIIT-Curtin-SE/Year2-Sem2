@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Additional LabSheet</string>
+    <string name="btnplay">Play</string>
+    <string name="btnpause">Pause</string>
+    <string name="btnstop">Stop</string>
+    <string name="onclickplay">Play</string>
+    <string name="onclickpause">Pause</string>
+    <string name="onclickstop">Stop</string>
+    <string name="Play">Play</string>
+    <string name="Pause">Pause</string>
+    <string name="Stop">Stop</string>
+</resources>
