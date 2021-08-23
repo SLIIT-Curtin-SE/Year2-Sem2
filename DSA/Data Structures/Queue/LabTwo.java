@@ -1,11 +1,11 @@
-class LabTwo<T> {
+class Queue<T> {
 	private int maxSize;
 	private int front;
 	private int rear;
 	private int noElements;
 	private Object[]	queArr;
 	
-	public LabTwo(char size) {
+	public Queue(char size) {
 		queArr = new Object[size];
 		noElements = 0;
 		rear = -1;
@@ -38,4 +38,21 @@ class LabTwo<T> {
 		return (T)queArr[front];
 	}
 	
+}
+
+class LabTwo {
+
+	public static void main(String[] args) {
+		Queue<Character> q = new Queue<Character>('a');
+		q.insert('a');
+		q.insert('b');
+		q.insert('c');
+		System.out.println(q.peekFront());
+		q.insert('d');
+		q.remove();
+		System.out.println(q.peekFront());
+		q.remove();
+		System.out.println(q.peekFront());
+	}
+
 }

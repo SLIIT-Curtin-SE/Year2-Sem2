@@ -25,7 +25,7 @@ class Tree<T> {
 	public Tree() {
 		root = null;
 	}
-	
+/*	
 	public void insert(int index, T data) {
 		
 		Node newNode = new Node(index, data);
@@ -93,6 +93,66 @@ class Tree<T> {
 			current.display();
 			return;
 		}
+	}
+*/
+	public void insert(int index, T data) {
+
+		Node newNode = new Node(index, data);
+
+		if (root == null) {
+			root = newNode;
+			return;
+		}
+		
+		Node current = root;
+		
+		while(true) {
+			Node pervies = current;
+
+			if (index > current.index) {
+				current = current.max;
+			} else {
+				current = current.min;
+			}
+
+			if (current == null) {
+				if (index > pervies.index) {
+					pervies.max = newNode;
+				} else {
+					pervies.min = newNode;
+				}
+				return;
+			}
+		}
+
+	}
+
+	public void display(int index) {
+		
+		if (root == null) {
+			System.out.println("sorry rool is null");
+			return;
+		}
+
+		Node current = root;
+
+		while(true) {
+			Node pervies = current;
+
+			if (index > current.index) {
+				current = current.max;
+			} else {
+				current = current.min;
+			}
+
+			if (current.index != index) {
+				continue;
+			} else {
+				current.display();
+				return;
+			}
+		}	
+
 	}
 
 }
