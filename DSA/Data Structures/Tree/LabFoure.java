@@ -137,8 +137,6 @@ class Tree<T> {
 		Node current = root;
 
 		while(true) {
-			Node pervies = current;
-
 			if (index > current.index) {
 				current = current.max;
 			} else {
