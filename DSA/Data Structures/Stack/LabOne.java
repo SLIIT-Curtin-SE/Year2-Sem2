@@ -15,20 +15,19 @@ class Stack<T> {
 		array[++top] = n;
 	}
 	
-	public void pop() {
-		if(top == -1) return;
-		--top;
+	public T pop() {
+		if(top == -1) return null;
+		return (T)array[--top];
 	}
-	
+
 	public T peek() {
 		return (T)array[top];
 	}
-	
+
 	public boolean isEmpty() {
-		if(top == -1) return true;
-		return false;
+		return top == -1;
 	}
-	
+
 }
 
 class LabOne {
@@ -45,6 +44,7 @@ class LabOne {
 		System.out.println(stack.peek());
 		stack.push(4);
 		System.out.println(stack.peek());
+		System.out.println(stack.isEmpty());
 		stack.push(5);
 		stack.pop();
 		System.out.println(stack.peek());

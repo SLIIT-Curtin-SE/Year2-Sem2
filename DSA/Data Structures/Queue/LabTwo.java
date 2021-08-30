@@ -5,7 +5,7 @@ class Queue<T> {
 	private int noElements;
 	private Object[]	queArr;
 	
-	public Queue(char size) {
+	public Queue(int size) {
 		queArr = new Object[size];
 		noElements = 0;
 		rear = -1;
@@ -13,7 +13,7 @@ class Queue<T> {
 		maxSize = size;
 	}
 	
-	public void insert(char n) {
+	public void insert(T n) {
 		if (noElements == maxSize)
 			return;
 		if (rear == maxSize - 1)
